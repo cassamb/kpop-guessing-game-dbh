@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit);
+
+/* GENERAL STYLING */
+
+body {
+    font-family: Outfit, Garamond;
+    font-weight: 550;
+    text-align: center;
+    background-color: #ffeedb;
+    color: #844700;
+    margin-top: 5%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+/* HOME PAGE STYLING */
+
+.home-page h2 {
+    margin-top: -2%;
+}
+
+#explanation {
+    text-align: left;
+    width: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+#init-btn-container {
+    font-size: 14px;
+    display: inline-block;
+    padding: 2%;
+}
+
+#status-btn-container {
+    font-size: 14px;
+    display: inline-block;
+    padding: 2%;
+}
+
+button {
+    display: inline-block;
+    height: 55px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 1px 2px 3px #848484;
+    color: #a65900;
+    background-color: #ffddb7;
+    border: 8px solid #ffbe73;
+}
+
+#init-btn {
+    width: 155px;
+}
+
+#status-btn {
+    width: 125px;
+}
+
+/* DATABASE STATUS PAGE STYLING */
+
+.status-page {
+    display: none;
+}
+
+.data-container {
+    position: absolute;
+    margin-left: 10%;
+    padding: 2%;
+    text-align: left;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+}
+
+#table-data {
+    position: relative;
+    margin-top: 0%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+        
+table {
+    margin-left: 55%;
+    /* margin-right: auto; */
+    width: 30%;
+    height: auto;
+}
+
+table, th, td {
+    background-color: white;
+    border: 3px solid #5D3200;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+/* INIT STATUS PAGE STYLING */
+
+.init-page {
+    display: none;
+}
+
+#init-status {
+    text-align: left;
+    width: 50%;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+#init-status, h2 {
+    text-align: center;
+    margin-top: 2%;
+}
+#home-btn {
+    width: 115px;
+    margin-top: 2%;
+}

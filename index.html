@@ -3,9 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kpop Guessing Game: Database Initializer</title>
+    <title>Kpop Guessing Game: Database Initializer & Handler</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Home Page -->
+    <div class="home-page">
+
+        <h1>Kpop Guessing Game</h1>
+        <h2>Database Initializer & Handler</h2>
+
+        <div id="explanation">
+            <p>This is the database initializer and handler for the Kpop Guessing Game PHP and AJAX iterations. This program does the following:</p>
+            <ul>
+                <li>Establishing a connection to the local server.</li>
+                <li>Verifying if the given database has already been instantiated and initializes it if not.</li>
+                <li>Closing the connection made to the local server.</li>
+                <li>Displaying all table entries for the 'groups' table.</li>
+            </ul>
+        </div>
+
+        
+        <div id="init-btn-container">
+            <p>Click the button below to initialize the 'flashcards' database and 'groups' table</p>
+            <button id="init-btn">Initialize Database</button>
+        </div>
+        
+        <div id="status-btn-container">
+            <p>Click the button below to check current database status.</p>
+            <button id="status-btn">Show Status</button>
+        </div>
+        
+
+    </div>
+
+    <!-- Database Status Page -->
+    <div class="status-page">
+        <h1>flashcards Database</h1>
+
+        <div class="data-container">
+            <h3 id="entries"></h3>
+            <div id="text-data"></div>
+        </div>
+
+        <div id="table-data"></div>
+    </div>
+
+    <!-- Database Initializer Page -->
+    <div class="init-page">
+        <div id="init-status"></div>
+        <button id="home-btn" onclick="window.location.reload();">Home Page</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
